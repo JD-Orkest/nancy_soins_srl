@@ -5,7 +5,7 @@ on:
     branches:
       - main # Le script s'exécute uniquement quand vous envoyez du code sur 'main'
 
-# Autorise le script à publier du contenu sur votre dépôt GitHub
+# Autorise le script à publier du contenu sur votre dépôt GitHub (Nouveau commit)
 permissions:
   contents: write
 
