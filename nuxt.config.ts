@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
 
-  // <-- AJOUT : Pré-chargement pour corriger le warning Vite
+  // Optimisation de l'environnement de développement (DevTools)
   vite: {
     optimizeDeps: {
       include: [
@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     }
   },
 
-  // Configuration CSS et Tailwind
+  // Configuration CSS globale
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
@@ -22,13 +22,14 @@ export default defineNuxtConfig({
     },
   },
 
-  // Préparation pour le déploiement statique
-  ssr: true,
-  routeRules: {
-    '/': { prerender: true }
-  },
-  
+  // Configuration de l'application et du déploiement
+  ssr: true, 
   app: {
+    // IMPORTANT GITHUB PAGES :
+    // Puisque votre dépôt GitHub s'appelle 'nancy_soins_srl', nous devons définir la baseURL avec ce nom.
+    // NOTE : Si plus tard vous achetez un vrai nom de domaine (ex: www.nancysoins.be), il vous suffira de remplacer ceci par '/'
+    baseURL: '/nancy_soins_srl/',
+    
     head: {
       htmlAttrs: {
         lang: 'fr-BE'
