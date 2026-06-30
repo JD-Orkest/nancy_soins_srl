@@ -3,7 +3,11 @@
     <div class="max-w-[1200px] mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
       
       <div class="relative rounded-lg overflow-hidden shadow-sm aspect-square md:aspect-[4/5] bg-gray-200">
-        <div class="absolute inset-0 flex items-center justify-center text-gray-500 font-medium">Image Placeholder (Photo de Nancy)</div>
+        <img 
+          src="~/assets/images/portrait.png" 
+          alt="Portrait professionnel de Nancy, infirmière à domicile" 
+          class="w-full h-full object-cover object-center"
+        />
       </div>
       
       <div>

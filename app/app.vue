@@ -48,6 +48,9 @@ useHead({
       type: 'application/ld+json',
       innerHTML: JSON.stringify(jsonLd)
     }
+  ],
+  link: [
+    { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
   ]
 })
 </script>

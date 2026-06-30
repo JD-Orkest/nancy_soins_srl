@@ -2,8 +2,15 @@
   <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-[12px] z-50 shadow-sm transition-all duration-300">
     <div class="max-w-[1200px] mx-auto px-4 h-20 flex items-center justify-between">
       
-      <a href="#accueil" class="text-2xl font-bold text-primary">
-        Nancy Soins SRL
+      <a href="#accueil" class="flex items-center gap-3 z-50 group">
+        <img 
+          src="/logo.svg" 
+          alt="Logo Nancy Soins SRL" 
+          class="h-10 w-auto md:h-12 transition-transform duration-300 group-hover:scale-105" 
+        />
+        <span class="text-xl md:text-2xl font-bold text-primary hidden sm:block">
+          Nancy Soins SRL
+        </span>
       </a>
 
       <nav class="hidden md:flex gap-8 font-semibold text-gray-600 text-sm">

@@ -2,6 +2,12 @@
   <section id="accueil" class="relative pt-32 pb-20 min-h-[90vh] flex items-center bg-surface overflow-hidden">
     
     <div class="absolute inset-0 z-0">
+      <img 
+        src="~/assets/images/hero.png" 
+        alt="Infirmière à domicile Nancy Soins" 
+        class="absolute inset-0 w-full h-full object-cover object-center" 
+      />
+      
       <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-transparent"></div>
     </div>
 
@@ -22,7 +28,7 @@
         
         <div class="flex flex-wrap gap-4">
           <a href="#contact" class="bg-primary text-white px-8 py-3 rounded-md font-semibold hover:bg-primary-container transition-colors shadow-sm">Prendre rendez-vous</a>
-          <a href="#services" class="bg-soft-teal text-tertiary px-8 py-3 rounded-md font-semibold hover:bg-[#b8cac9] transition-colors">Nos services</a>
+          <a href="#services" class="bg-soft-teal text-tertiary px-8 py-3 rounded-md font-semibold hover:bg-[#b8cac9] transition-colors">Mes services</a>
         </div>
 
       </div>

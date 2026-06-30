@@ -21,7 +21,7 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
             Tarifs
           </div>
-          <p class="text-gray-600 leading-relaxed">Je suis une infirmière conventionnée par l'INAMI. J'applique le tiers payant : vous ne payez que ce qui n'est pas couvert par votre mutuelle.</p>
+          <p class="text-gray-600 leading-relaxed">Je suis une infirmière conventionnée par l'INAMI. Votre mutuelle prend en charge le remboursement de vos soins conformément à votre statut.</p>
         </div>
 
         <div class="bg-surface-container-low p-8 rounded-lg border border-gray-100">
