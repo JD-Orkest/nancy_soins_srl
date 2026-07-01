@@ -2,10 +2,18 @@
   <section id="accueil" class="relative pt-32 pb-20 min-h-[90vh] flex items-center bg-surface overflow-hidden">
     
     <div class="absolute inset-0 z-0">
-      <img 
-        src="~/assets/images/hero.png" 
-        alt="Infirmière à domicile Nancy Soins" 
-        class="absolute inset-0 w-full h-full object-cover object-center" 
+      <!-- Image LCP : fetchpriority=high pour la détection LCP, format WebP pour réduire le poids -->
+      <NuxtImg
+        src="/images/hero.png"
+        alt="Infirmière à domicile Nancy Soins"
+        class="absolute inset-0 w-full h-full object-cover object-center"
+        format="webp"
+        quality="80"
+        sizes="xs:375px sm:640px md:768px lg:1024px xl:1280px"
+        fetchpriority="high"
+        loading="eager"
+        width="1280"
+        height="720"
       />
       
       <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/90 to-transparent"></div>

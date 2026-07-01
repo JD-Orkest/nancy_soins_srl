@@ -3,10 +3,17 @@
     <div class="max-w-[1200px] mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
       
       <div class="relative rounded-lg overflow-hidden shadow-sm aspect-square md:aspect-[4/5] bg-gray-200">
-        <img 
-          src="~/assets/images/portrait.png" 
-          alt="Portrait professionnel de Nancy, infirmière à domicile" 
+        <!-- Image portrait : lazy loading (hors viewport initial), WebP pour réduire le poids -->
+        <NuxtImg
+          src="/images/portrait.png"
+          alt="Portrait professionnel de Nancy, infirmière à domicile"
           class="w-full h-full object-cover object-center"
+          format="webp"
+          quality="80"
+          sizes="xs:375px sm:640px md:600px"
+          loading="lazy"
+          width="600"
+          height="750"
         />
       </div>
       
