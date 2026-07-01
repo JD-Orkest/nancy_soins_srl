@@ -40,10 +40,9 @@ export default defineNuxtConfig({
   // Configuration de l'application et du déploiement
   ssr: true, 
   app: {
-    // IMPORTANT GITHUB PAGES :
-    // Puisque votre dépôt GitHub s'appelle 'nancy_soins_srl', nous devons définir la baseURL avec ce nom.
-    // NOTE : Si plus tard vous achetez un vrai nom de domaine (ex: www.nancysoins.be), il vous suffira de remplacer ceci par '/'
-    baseURL: '/nancy_soins_srl/',
+    // NOTE : Domaine personnalisé nancy-soins.be → baseURL = '/'
+    // (anciennement '/nancy_soins_srl/' pour GitHub Pages sans domaine)
+    baseURL: '/',
     
     head: {
       htmlAttrs: {
